@@ -13,6 +13,6 @@ end_time = start_time + 6000
 sample = radio_show[start_time:end_time]
 
 # Export the sample to a new wav file to avoid compression
-sample.export("cool_down_pace_sample.wav", format="wav")
+sample.export("samples/cool_down_pace_sample.wav", format="wav")
 
-print("success, 'cool_down_pace_sample.wav' created")
+print("success, 'samples/cool_down_pace_sample.wav' created")

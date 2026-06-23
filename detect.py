@@ -1,7 +1,7 @@
 from pydub import AudioSegment
 
 # 1. Load your 6-second padded sample
-sample = AudioSegment.from_wav("cool_down_pace_sample.wav")
+sample = AudioSegment.from_wav("samples/cool_down_pace_sample.wav")
 
 # 2. Define what "loud" means.
 # Pydub measures volume in dBFS (decibels relative to full scale).
